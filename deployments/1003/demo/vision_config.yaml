@@ -1,0 +1,9 @@
+calibration_verified: false
+enabled: false
+height_correction: 0.0733
+measured_lens_height_m: 0.15
+min_height: 0.025
+notes: 1003 only; 0.8m/1.2m static box validation; recalibrate after moving camera
+  mount
+pitch_correction_deg: -5.5
+test_obstacle_height_m: 0.055

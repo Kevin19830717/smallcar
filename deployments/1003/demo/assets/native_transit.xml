@@ -1,0 +1,29 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="FreshGoalPathFirst">
+      <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+      <Fallback>
+        <SmoothPath unsmoothed_path="{path}" smoothed_path="{path}" smoother_id="simple_smoother" max_smoothing_duration="0.3" check_for_collisions="true"/>
+        <AlwaysSuccess/>
+      </Fallback>
+      <PipelineSequence name="NavigateWithReplanning">
+        <RateController hz="1.0">
+          <Fallback>
+            <ReactiveSequence>
+              <Inverter><GlobalUpdatedGoal/></Inverter>
+              <IsPathValid path="{path}"/>
+            </ReactiveSequence>
+            <Sequence name="ReplanThenSmooth">
+              <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+              <Fallback>
+                <SmoothPath unsmoothed_path="{path}" smoothed_path="{path}" smoother_id="simple_smoother" max_smoothing_duration="0.3" check_for_collisions="true"/>
+                <AlwaysSuccess/>
+              </Fallback>
+            </Sequence>
+          </Fallback>
+        </RateController>
+        <FollowPath path="{path}" controller_id="FollowPath" goal_checker_id="goal_checker"/>
+      </PipelineSequence>
+    </Sequence>
+  </BehaviorTree>
+</root>

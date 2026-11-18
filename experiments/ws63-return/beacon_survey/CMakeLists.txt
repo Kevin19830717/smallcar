@@ -1,0 +1,7 @@
+if(DEFINED CONFIG_SAMPLE_SUPPORT_BEACON_SURVEY_TX)
+    list(APPEND SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/beacon_tx.c)
+else()
+    list(APPEND SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/beacon_rx.c
+                        ${CMAKE_CURRENT_SOURCE_DIR}/return_client.c)
+endif()
+set(SOURCES "${SOURCES}" PARENT_SCOPE)

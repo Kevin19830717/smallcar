@@ -1,0 +1,12 @@
+"""Bounded, signed final turns; collision checking stays in native Nav2 Spin."""
+import math
+
+def final_turn(error, attempts=0, previous_error=None):
+    error=math.atan2(math.sin(error),math.cos(error))
+    if abs(error)<=math.radians(5):return None
+    if attempts>=2:raise ValueError('到点定向两次后仍超差，请检查定位或转动空间')
+    if attempts and previous_error is not None and abs(error)>=abs(previous_error)-math.radians(2):
+        raise ValueError('到点定向没有有效改善，请检查底盘转向、定位和障碍')
+    # Leave 2 degrees for settling, rather than pursuing zero through reversals.
+    target=math.copysign(abs(error)-math.radians(2),error)
+    return target,max(12,math.ceil(abs(target)/.10+6))

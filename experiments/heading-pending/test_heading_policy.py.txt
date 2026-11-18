@@ -1,0 +1,20 @@
+import unittest
+from heading_policy import final_turn
+import math
+
+class Tests(unittest.TestCase):
+    def test_inside_acceptance(self):
+        self.assertIsNone(final_turn(math.radians(4.9)))
+    def test_signed_shortest_turn_and_braking_margin(self):
+        a,_=final_turn(math.radians(270))
+        self.assertAlmostEqual(math.degrees(a),-88.)
+    def test_both_directions(self):
+        a,_=final_turn(math.radians(90))
+        b,_=final_turn(math.radians(-90))
+        self.assertEqual(a,-b)
+    def test_bounded_retry(self):
+        with self.assertRaises(ValueError):final_turn(.2,2)
+    def test_no_progress(self):
+        with self.assertRaises(ValueError):final_turn(.2,1,.21)
+    def test_reversal_requires_smaller_remaining_error(self):
+        self.assertIsNotNone(final_turn(-.15,1,.6))

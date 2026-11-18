@@ -1,0 +1,172 @@
+{
+  "version": "v1",
+  "source": "robot diagnostic configuration snapshot 20261117T124643Z_08fa6841; runtime was restored before snapshot",
+  "base_upstream_commit": "9d67bd1c49458c8763fb44ccd525fbdf85586973",
+  "files": [
+    {
+      "path": "deployments/1003/demo/arrival_policy.py",
+      "source_bytes_sha256": "f53932207ae5a4517d2616f1ea0044d57ff26163def39e1d5c9d939b68123d09",
+      "repository_bytes_sha256": "f53932207ae5a4517d2616f1ea0044d57ff26163def39e1d5c9d939b68123d09"
+    },
+    {
+      "path": "deployments/1003/demo/broadcast_survey.py",
+      "source_bytes_sha256": "a13da764f928bc941dafdc3ecaefa33755fdbb5ec0e6d67186c9a933f3df8318",
+      "repository_bytes_sha256": "744ad386297a74d58cd261d48707ce3cd1b9f2a715703cb240cecc873b24115f"
+    },
+    {
+      "path": "deployments/1003/demo/charge_confirmation.py",
+      "source_bytes_sha256": "b4d6b537745c4f9f4d79618acbe01cf8dc5f0577e62d62f2bd5a3e9d542583a6",
+      "repository_bytes_sha256": "b4d6b537745c4f9f4d79618acbe01cf8dc5f0577e62d62f2bd5a3e9d542583a6"
+    },
+    {
+      "path": "deployments/1003/demo/collection.py",
+      "source_bytes_sha256": "eca28ab45745ec559c947655e7373e391f9572e8add5ac51183674845d39f307",
+      "repository_bytes_sha256": "65dbbc5d50e5812827e1e9034b824dc160699016b2a9f929bbe2c3a17ae8cdc0"
+    },
+    {
+      "path": "deployments/1003/demo/collection_export.py",
+      "source_bytes_sha256": "b0d029c346e64c3a1db1fb89689ce80e86a25740c28197b9c3745ff614ea74ae",
+      "repository_bytes_sha256": "b0d029c346e64c3a1db1fb89689ce80e86a25740c28197b9c3745ff614ea74ae"
+    },
+    {
+      "path": "deployments/1003/demo/configure_factory.py",
+      "source_bytes_sha256": "b59bcdc1f050fdbd7050d29ec8d562a74c4fe3a9cb78f21e09acd543de4a7da5",
+      "repository_bytes_sha256": "c6e1d6689116b1dfac75bbf1c5b57cf1b05ce6d0d9ef0e1e1d9133ab3228169f"
+    },
+    {
+      "path": "deployments/1003/demo/demo.launch.py",
+      "source_bytes_sha256": "a179d09340a232c884dc7d1ab2738f1fe194489be184b5d2799732be2ba67ff6",
+      "repository_bytes_sha256": "a179d09340a232c884dc7d1ab2738f1fe194489be184b5d2799732be2ba67ff6"
+    },
+    {
+      "path": "deployments/1003/demo/deploy_vm.py",
+      "source_bytes_sha256": "4e85c488496ef27871544d0545c669c76e6c9f8f53ca3a1301654c2cad1e6080",
+      "repository_bytes_sha256": "4e85c488496ef27871544d0545c669c76e6c9f8f53ca3a1301654c2cad1e6080"
+    },
+    {
+      "path": "deployments/1003/demo/depth_geometry.py",
+      "source_bytes_sha256": "f1de4050b57b67ec5ebe58b55bd1b170d89b4afabdbcbbcab2aba5e233af6a2d",
+      "repository_bytes_sha256": "f1de4050b57b67ec5ebe58b55bd1b170d89b4afabdbcbbcab2aba5e233af6a2d"
+    },
+    {
+      "path": "deployments/1003/demo/depth_obstacles.py",
+      "source_bytes_sha256": "62b95965ee3b06a8bf7872add7fa2efab28c628e19ed4f14f547dab666d0c479",
+      "repository_bytes_sha256": "9fdf6aaea252cb79a9dee75bc42dd7afdfab3b4341abb814ed4d8285020c02b8"
+    },
+    {
+      "path": "deployments/1003/demo/device_clock.py",
+      "source_bytes_sha256": "571867940a36eabe4fa0653ef738e19d79698fe6fdcbd71f94d57736577cebc0",
+      "repository_bytes_sha256": "9dbc82f12b4cdab60e8e3b9e1531efc36501e9ea6be93146424c77bb01924eed"
+    },
+    {
+      "path": "deployments/1003/demo/dock_exit.py",
+      "source_bytes_sha256": "404d3210ed6220ccc36f56bc05449e10d1948abc6dc01396fe68d8ef261424d2",
+      "repository_bytes_sha256": "404d3210ed6220ccc36f56bc05449e10d1948abc6dc01396fe68d8ef261424d2"
+    },
+    {
+      "path": "deployments/1003/demo/dock_localization.py",
+      "source_bytes_sha256": "aa5ca6aeda574e1b7956cb7a4e9d40b7ef9331f2e2df76f6cdb8e13910e67d90",
+      "repository_bytes_sha256": "aa5ca6aeda574e1b7956cb7a4e9d40b7ef9331f2e2df76f6cdb8e13910e67d90"
+    },
+    {
+      "path": "deployments/1003/demo/flight_recorder.py",
+      "source_bytes_sha256": "9a5d155eed31685eceddf73fc79eeeb953d653db700af0bfb88b7349f1a95a61",
+      "repository_bytes_sha256": "9a5d155eed31685eceddf73fc79eeeb953d653db700af0bfb88b7349f1a95a61"
+    },
+    {
+      "path": "deployments/1003/demo/map_grid.py",
+      "source_bytes_sha256": "a137069840ac4acf20ca649e87210d3f79e67814a7bcd28362355bf9b541a082",
+      "repository_bytes_sha256": "a137069840ac4acf20ca649e87210d3f79e67814a7bcd28362355bf9b541a082"
+    },
+    {
+      "path": "deployments/1003/demo/mission.py",
+      "source_bytes_sha256": "69720f4e3d02db2e0375ed2efd30026c04f075fe42f0b95a1939f3cc2ba6978b",
+      "repository_bytes_sha256": "69720f4e3d02db2e0375ed2efd30026c04f075fe42f0b95a1939f3cc2ba6978b"
+    },
+    {
+      "path": "deployments/1003/demo/mock_backend.py",
+      "source_bytes_sha256": "69bcffb158ddf657ee06c2c3ccc3d0b27a12befff2b798e0e61aa0137388e3ff",
+      "repository_bytes_sha256": "69bcffb158ddf657ee06c2c3ccc3d0b27a12befff2b798e0e61aa0137388e3ff"
+    },
+    {
+      "path": "deployments/1003/demo/motion_gate.py",
+      "source_bytes_sha256": "bc683d0ac814c1829d931c6e66b389369ff5c31c86060ce97fcd0584029bc803",
+      "repository_bytes_sha256": "bc683d0ac814c1829d931c6e66b389369ff5c31c86060ce97fcd0584029bc803"
+    },
+    {
+      "path": "deployments/1003/demo/navigation.yaml",
+      "source_bytes_sha256": "0d97fc4304da8241dad7c4618b884862b8bce3906929e11dd89b1a3f87173357",
+      "repository_bytes_sha256": "0d97fc4304da8241dad7c4618b884862b8bce3906929e11dd89b1a3f87173357"
+    },
+    {
+      "path": "deployments/1003/demo/rdk_link.py",
+      "source_bytes_sha256": "dd482df0e5f10a272e9e776c6847a16accc37434a1bbc57b543ab4543725421d",
+      "repository_bytes_sha256": "dd482df0e5f10a272e9e776c6847a16accc37434a1bbc57b543ab4543725421d"
+    },
+    {
+      "path": "deployments/1003/demo/recovery_policy.py",
+      "source_bytes_sha256": "af83cad56735be6c8f3f3168f396e415c7afe4596f694ae403c381fae9a2a3df",
+      "repository_bytes_sha256": "af83cad56735be6c8f3f3168f396e415c7afe4596f694ae403c381fae9a2a3df"
+    },
+    {
+      "path": "deployments/1003/demo/retention.py",
+      "source_bytes_sha256": "05a87945b8d260ed066b7d5f9a1f5a62ac2cda37b0370b8b4bfaf07c6cefad1d",
+      "repository_bytes_sha256": "05a87945b8d260ed066b7d5f9a1f5a62ac2cda37b0370b8b4bfaf07c6cefad1d"
+    },
+    {
+      "path": "deployments/1003/demo/ros_backend.py",
+      "source_bytes_sha256": "f7c75b88b9fd54b74c774d733fc9ecc8341fe2839eb1e3575531a59074eecaff",
+      "repository_bytes_sha256": "f7c75b88b9fd54b74c774d733fc9ecc8341fe2839eb1e3575531a59074eecaff"
+    },
+    {
+      "path": "deployments/1003/demo/route_alignment.py",
+      "source_bytes_sha256": "3e2ceb3a05c0cba8394ee47c11c59343753e228499816f020896b9ae8a9fc0f8",
+      "repository_bytes_sha256": "3e2ceb3a05c0cba8394ee47c11c59343753e228499816f020896b9ae8a9fc0f8"
+    },
+    {
+      "path": "deployments/1003/demo/self_return_filter.py",
+      "source_bytes_sha256": "fcd32e2038f02c8d57198e93c86b1ab95056773fb86f49ba5d3de19193382981",
+      "repository_bytes_sha256": "fcd32e2038f02c8d57198e93c86b1ab95056773fb86f49ba5d3de19193382981"
+    },
+    {
+      "path": "deployments/1003/demo/self_return_geometry.py",
+      "source_bytes_sha256": "adfce3fb1ca0e97dc7e41f1a857c88540d7c761e03cbfe05e44581c0c1e7e7f2",
+      "repository_bytes_sha256": "adfce3fb1ca0e97dc7e41f1a857c88540d7c761e03cbfe05e44581c0c1e7e7f2"
+    },
+    {
+      "path": "deployments/1003/demo/server.py",
+      "source_bytes_sha256": "02169cb7a738cdeb6fb03ac844b68b007e2bac0ffaa70ab43cac59eb64eb1f93",
+      "repository_bytes_sha256": "02169cb7a738cdeb6fb03ac844b68b007e2bac0ffaa70ab43cac59eb64eb1f93"
+    },
+    {
+      "path": "deployments/1003/demo/survey_heatmap.py",
+      "source_bytes_sha256": "27889d2b3540cf399bcb5e3918dbbd66e16a5478b1be732f2f21ea1d283acda9",
+      "repository_bytes_sha256": "729639198d26b90c44f8ebd69b6ca30031f077605ed9f1cfba0fc8248c7d9c1c"
+    },
+    {
+      "path": "deployments/1003/demo/survey_path.py",
+      "source_bytes_sha256": "fc5d046dbf8ffe81c19e734667a33a0940b5c0e9114157727838b3d0acf07c9c",
+      "repository_bytes_sha256": "6f68724b06ff08d62cc25c35832fd6ce1fae72f8737542e5cdec30b697bdbe33"
+    },
+    {
+      "path": "deployments/1003/demo/survey_ros.py",
+      "source_bytes_sha256": "369f8ce8fbceee9244a03c9b7c2e51c91c0c8ac6155892dd1863600b7a98030d",
+      "repository_bytes_sha256": "9cdd81f8ff4f16e2f3c0a2aef76de864f29398d559fe629dc74e63b4c6853138"
+    },
+    {
+      "path": "deployments/1003/demo/survey_route.py",
+      "source_bytes_sha256": "f40e3d81689ffceb404817e3e89f517796c7bc40ebdbc74690cfc493c0864def",
+      "repository_bytes_sha256": "f40e3d81689ffceb404817e3e89f517796c7bc40ebdbc74690cfc493c0864def"
+    },
+    {
+      "path": "deployments/1003/demo/travel_recovery.py",
+      "source_bytes_sha256": "44e2aed24d26cdb56a28ceffc5f68c4b4c70efe59a105a3715b6e289638298b4",
+      "repository_bytes_sha256": "44e2aed24d26cdb56a28ceffc5f68c4b4c70efe59a105a3715b6e289638298b4"
+    },
+    {
+      "path": "deployments/1003/demo/vision_config.yaml",
+      "source_bytes_sha256": "b0998f731fbebf6138efe93606b4c5828f325a7cf332b83266620e407f68747d",
+      "repository_bytes_sha256": "b0998f731fbebf6138efe93606b4c5828f325a7cf332b83266620e407f68747d"
+    }
+  ]
+}
