@@ -16,4 +16,5 @@
 - [上游基线使用说明](README-upstream-baseline.md)
 - [源码清单](docs/current-source-manifest.json)
 
-上游来源为 [Lyr1cs13/r550-field-kit](https://github.com/Lyr1cs13/r550-field-kit)，保留原MIT许可和第三方许可。`v1`标签用于标识本次归档。
+上游来源为 [Lyr1cs13/r550-field-kit](https://github.com/Lyr1cs13/r550-field-kit)，保留原MIT许可和第三方许可。`v1`版本分支用于标识本次归档。
+

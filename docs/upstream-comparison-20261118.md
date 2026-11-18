@@ -38,3 +38,8 @@
 5. 静态检查之后，分别验收到点定向、狭窄通道、障碍短退、断流停车、红外对接。通过后才切换正式启动入口。
 
 资料：[提交对比](https://github.com/Lyr1cs13/r550-field-kit/compare/9d67bd1...15cb718)、[导航说明](https://github.com/Lyr1cs13/r550-field-kit/blob/15cb718/docs/10-robust-navigation.md)、[双车说明](https://github.com/Lyr1cs13/r550-field-kit/blob/15cb718/docs/12-dual-r550.md)。这些是代码和文档层面的能力，尚未在1003上做升级实测。
+
+## 本机离线检查
+
+上游205项测试通过，跳过16项；归档根目录基线121项测试通过，跳过9项。源码/示例场景/文档链接与凭据检查通过。测试使用Python 3.12及工作区内临时依赖，未连接ROS实车；1003快照和未完成补丁不包含在基线通过声明里。
+
